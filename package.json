@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/timoschlueter/nightscout-librelink-up.git"
+    "url": "git+https://github.com/relo1/nightscout-librelink-up.git"
   },
   "keywords": [
     "nightscout",

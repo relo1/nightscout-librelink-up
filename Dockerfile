@@ -1,4 +1,4 @@
-FROM node:18-bullseye
+FROM node:21-alpine
 LABEL description="Script written in TypeScript that uploads CGM readings from LibreLink Up to Nightscout"
 
 # Install CertRoot

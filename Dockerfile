@@ -15,6 +15,10 @@ RUN npm install
 # Bundle app source
 COPY . /usr/src/app
 
+# Add root CA certificate
+ADD rebinsky-root.crt /usr/local/share/ca-certificates/rebinsky.crt
+RUN chmod 644 /usr/local/share/ca-certificates/rebinsky.crt && update-ca-certificates
+
 # Run tests
 RUN npm run test
 
